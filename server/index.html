@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='css' href='styles.css'>
+  </head>
+  <body>
+    <div class="gameOver">
+    
+    </div>
+    <div class="scoreboard">
+      <!-- Modify the scoreboard when important events occur in your game! -->
+      <div class ="highscore">High score: <span class="highest">0</span></div>
+      <div class="currentScore">Current score: <span class="current">0</span></div>
+      <div class="collisions">Collisions: <span class="collision-count">0</span></div>
+    </div>
+    <div class="container"></div>
+    <script src="node_modules/socket.io/node_modules/socket.io-client/socket.io.js"></script>
+    <script src="lib/d3.js" charset="utf-8"></script>
+    <script src='player.js'></script>
+    <script src='watchout.js'></script>
+    
+  
+  </body>
+</html>
